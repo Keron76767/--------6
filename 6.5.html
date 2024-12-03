@@ -1,0 +1,7 @@
+﻿<script>
+    let inputString = prompt("Введите строку:");
+    let letterCount = (inputString.match(/[a-zA-Z]/g) || []).length;
+    let digitCount = (inputString.match(/\d/g) || []).length;
+    console.log("Количество букв:", letterCount);
+    console.log("Количество цифр:", digitCount);
+</script>

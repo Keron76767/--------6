@@ -1,0 +1,5 @@
+﻿<script>
+    let inputString = prompt("Введите строку:");
+    let noSpecialAndDigitsRegex = /^[^0-9!@#$%^&*'"<>{}=/()_+]+$/;
+    console.log("Строка не содержит спецсимволов и цифр, и ее длина не менее 10 символов:", noSpecialAndDigitsRegex.test(inputString) && inputString.length >= 10);
+</script>

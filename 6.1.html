@@ -1,0 +1,5 @@
+﻿<script>
+    let inputString = prompt("Введите строку:");
+    let urlRegex = /^(https?:\/\/)?([\da-z.-]+)\.([a-z.]{2,6})([/\w.-]*)*\/?$/;
+    console.log("Строка является URL:", urlRegex.test(inputString));
+</script>
